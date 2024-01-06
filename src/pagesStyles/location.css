@@ -1,0 +1,53 @@
+.location-page {
+    padding: 20px;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.location-info {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: slideIn 1s;
+}
+
+@keyframes slideIn {
+    0% {transform: translateY(-50px);}
+    100% {transform: translateY(0);}
+}
+
+.location-info h2 {
+    font-size: 24px;
+    font-weight: 500;
+    
+    margin-bottom: 10px;
+    color: #e44d26;
+    text-transform: uppercase;
+}
+
+.location-info p {
+    color: #051E38;
+    font-weight: 600;
+}
+.map .loading-message{
+    color: #e44d26;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.map iframe {
+    width: 85%;
+    margin: 0 auto;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.map iframe:hover {
+    transform: scale(1.05);
+}

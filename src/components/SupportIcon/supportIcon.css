@@ -1,0 +1,99 @@
+/* supportIcon.css */
+
+.support-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+  
+  .hotline-phone-ring-wrap1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hotline-phone-ring {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    z-index: 50000;
+    
+  }
+  
+  .hotline-phone-ring-circle1,
+  .hotline-phone-ring-circle-fill1 {
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    opacity: 5;
+    background-color: rgb(188, 8, 8);
+    animation: pulsate 1s ease-out infinite;
+    z-index: 2000;
+    
+  }
+  
+  .hotline-phone-ring-circle-fill1 {
+    animation-delay: 0.5s;
+    z-index: 1500;
+
+  }
+  
+  .hotline-phone-ring-img-circle1 {
+    z-index: 2000;
+  }
+  
+  .phone-icon {
+    color: white;
+    font-size: 25px;
+  }
+  
+  .hotline-bar {
+    margin-left: 10px;
+    padding: 10px;
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  }
+  .hotline-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+.hotline-slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @keyframes pulsate {
+    0% {
+      transform: scale(0.9);
+      opacity: 0.7;
+    }
+    50% {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(0.9);
+      opacity: 0.7;
+    }
+  }
+  

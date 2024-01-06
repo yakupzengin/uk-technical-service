@@ -1,0 +1,115 @@
+.customer-comment {
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.comment-heading {
+    font-size: 1.875rem;
+    font-weight: 800;
+    color: #1A202C;
+    margin-bottom: 2rem;
+}
+
+.comment-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.comment-box {
+    padding: 2rem;
+    border: 1px solid #E2E8F0;
+    border-radius: 0.375rem;
+    transition: background-color 0.3s ease;
+    width: 50%;
+}
+
+.comment-box:hover {
+    background-color: #EDF2F7;
+}
+
+.quote-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.quote-icon {
+    font-size: 1.5rem;
+    color: #3182CE;
+}
+
+.comment-text {
+    font-size: 1.125rem;
+}
+
+.customer-name {
+    font-size: 1.125rem;
+    color: #3182CE;
+    margin-top: 1rem;
+}
+
+.location {
+    font-size: 1rem;
+    color: #718096;
+}
+
+.star-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 1rem;
+}
+
+.star-icon {
+    font-size: 1.25rem;
+    color: #F6E05E;
+}
+
+.like-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.like-icon {
+    font-size: 1.25rem;
+    color: #48BB78;
+}
+
+.like-count {
+    font-size: 1.125rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.buttons button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #3182CE;
+    color: #fff;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #2B6CB0;
+}
+
+@media screen and (max-width: 770px) {
+    .comment-box {
+        width: 100%;
+    }
+}

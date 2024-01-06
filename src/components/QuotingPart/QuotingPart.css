@@ -1,0 +1,44 @@
+.quoting-container {
+    padding: 44px; 
+    border-width: 4px;
+    border-color:#051E38;
+  }
+  
+  .quote-sentence{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .quote-icon-left   {
+    font-size: 1.25rem; 
+    color: #1E3A8A; 
+    margin-right: 0.75rem; 
+  }
+  
+  .quote-text {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-weight: 600; 
+    color: #1F2937; 
+    font-size: 1.5rem;
+    font-family: "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+  }
+  
+  .quote-icon-right{
+    margin-left: 0.75rem; 
+  }
+  
+  .quote-sub-sentence {
+    padding: 20px; 
+    margin-top: 20px; 
+  }
+  
+  .sub-quote-text {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-size: 1rem;
+  }
+  

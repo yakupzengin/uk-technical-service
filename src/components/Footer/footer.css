@@ -1,0 +1,133 @@
+/* footer css */
+.footer {
+    border: 1px solid transparent;
+    background-color: #f8f9fa;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin-top: 5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    animation: fadeIn 2s; /* fade in animasyonu  */
+
+}
+
+.footer-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-brand {
+    flex: 1;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 2;
+}
+
+.footer-section {
+    width: 30%;
+}
+.footer-section Footer{
+    display: flex;
+    align-items: center;
+}
+.footer-link{
+    align-items: center;
+    justify-content: center;
+}
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.footer a:hover,
+.footer-icons a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .logo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        margin: 20px ;
+    }
+    .footer-brand {
+        flex: 1;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    
+    .brand-name{
+        width: 100%;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .footer-links{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-section {
+        flex-direction: column;
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-section-inside{
+        font-size: 30px;
+    }
+
+    .footer-bottom-inside {
+        flex-direction: column;
+        font-size: 15px;
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-icons {
+        width: 100%;
+        justify-content: center;
+        gap: 32px;
+        font-size: 25px;
+
+    }
+}

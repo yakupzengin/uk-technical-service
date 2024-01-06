@@ -1,0 +1,53 @@
+.advert-container {
+    display: flex;
+    justify-content: center;
+    margin:70px 40px 0 40px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .advert-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .advert-card {
+    border: 4px solid #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    flex-basis: calc(33% - 16px);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .advert-icon {
+    width: 92%;
+    color: #F59E0B;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .advert-title {
+    font-weight: bold;
+    font-size: 2rem;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .advert-text {
+    margin-top: 20px;
+    font-size: 1.125rem;
+    transition: all 0.5s ease-in-out;
+  }
+  @media (max-width: 768px) {
+  .advert-content {
+    flex-direction: column;
+  }
+  
+  .advert-card {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  }
+  

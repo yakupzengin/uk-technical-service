@@ -1,0 +1,135 @@
+:root{
+    --darkBlue2:#021020;
+    --darkBlue : #062444;
+    --lightGray: #f0f0f0;
+    --iconColor: #ffffff;
+    --iconHoverColor: #ffcc00;
+}
+  
+.topbar{
+    position: sticky;
+    background: linear-gradient(to right, #021020, #062444); 
+    transition: all 0.3s ease;
+    top: 0;
+    z-index: 100;
+    padding: 1.5rem;
+}
+.topbar-container{
+    font-size: 16px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    color: white;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+}
+.topbar-left{
+    margin-left: 6rem;
+}
+.top-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.address-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.address-info .icon-left{
+    font-size: 22px;
+    flex-wrap: nowrap;
+}
+.address-info .icon-content span{
+    display: flex;
+    margin-left: 0px;
+}
+.topbar-right{
+    display: flex;
+    justify-content: center;
+    margin-right: 7rem;
+    align-items: center;
+}
+.top-element{
+    display: flex;
+    align-items: center;
+}
+.top-element .socials{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    font-size:22px;
+
+  }
+.top-element .socials a{
+    color: var(--iconColor);
+    transition: color 0.3s ease;
+}
+.top-element .socials a:hover{
+    color: var(--iconHoverColor);
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 770px) {
+  .topbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+
+  .topbar-left,
+  .topbar-right {
+    flex-direction: row;
+
+    margin: 0;
+    padding: 0;
+  }
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-info {
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .address-info {
+    display: -webkit-inline-box;
+    flex-direction: column;
+    align-items: center;
+    font-variant: all-small-caps;
+  }
+
+  .address-info .icon-content span {
+    margin-left: 0;
+  }
+  .top-element {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .top-element .socials {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center-align social links */
+    text-align: center;
+  }
+}
+
+    

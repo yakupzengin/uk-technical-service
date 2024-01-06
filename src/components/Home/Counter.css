@@ -1,0 +1,52 @@
+:root {
+    --orange: #ff7a00;
+    --highlight: #5756e6;
+}
+
+.counting {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+
+}
+
+.counting .box {
+    margin: 2rem 2rem; /* Daha az boşluk */
+    text-align: center;
+    flex-basis: calc(25% - 4rem);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.counting .box:hover {
+    transform: scale(1.05); 
+}
+
+.counting .box .count {
+    font-size: 30px;
+    font-weight: 600;
+    color: #444;
+}
+
+.counting .box h3 {
+    font-size: 25px;
+    color: var(--orange);
+}
+
+.counting .box .icon {
+    font-size: 20px;
+    color: var(--highlight);
+}
+
+@media screen and (max-width: 770px) {
+    .counting .box {
+        flex-basis: 100%;
+        margin: 1rem 0;
+    }
+}

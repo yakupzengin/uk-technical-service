@@ -1,0 +1,66 @@
+/* NotFound.css */
+
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .not-found-content {
+    text-align: center;
+    animation: fadeIn 2s;
+  }
+  
+  .not-found-content h1 {
+    margin-top: -7rem;
+    font-size: 15vw; 
+    background: linear-gradient(to right, #0A5F84, #062444);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  
+  .not-found-content h2 {
+    font-size: 3vw; 
+    color: #181717;
+    font-weight: bolder;
+
+    margin-top: 0;  }
+  
+  .not-found-content p {
+    font-size: 1.5vw; 
+    font-weight: thin;
+    color: #666;  }
+  
+  .not-found-b {
+    display: inline-flex; 
+    align-items: center;
+    cursor: pointer;
+    margin-top: 1.3rem;
+    padding: 10px 15px;
+    border: 1px solid #D83030;
+    background-color: #D83030;
+    color: white;
+    font-weight: 500;
+    text-decoration: none; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    animation: colorChange 2s infinite; 
+  }
+  .not-found-icon {
+    margin-left: 10px;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes colorChange {
+    0% { background-color: #D83030; color: white; }
+    50% { background-color: white; color: #D83030; }
+    100% { background-color: #D83030; color: white; }
+  }
+  
