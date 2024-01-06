@@ -10,7 +10,6 @@ import "./TopNavbar.css"
 const TopNavbar = () => {
     return (
         <div className='topbar'>
-            <div className="topbar-container">
                 <div className="row">
                     <div className="topbar-left">
                         <div className="top-info">
@@ -30,7 +29,7 @@ const TopNavbar = () => {
                             <div className='address-info'>
                                 <CiClock1 className="icon-left" />
                                 <div className="icon-content">
-                                    <span>7/24 Kombi & Klima & Beyaz Eşya Servisi</span>
+                                    <span>7/24 Teknik Servis</span>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +61,6 @@ const TopNavbar = () => {
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     )
 }

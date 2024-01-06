@@ -7,6 +7,7 @@
 }
   
 .topbar{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     position: sticky;
     background: linear-gradient(to right, #021020, #062444); 
     transition: all 0.3s ease;
@@ -14,9 +15,7 @@
     z-index: 100;
     padding: 1.5rem;
 }
-.topbar-container{
-    font-size: 16px;
-}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -25,17 +24,14 @@
     gap: 50px;
     color: white;
 }
-.navbar-container{
-    display: flex;
-    flex-direction: row;
-}
+
 .topbar-left{
     margin-left: 6rem;
 }
 .top-info{
     display: flex;
     justify-content: space-between;
-    gap: 25px;
+    gap: 5px;
 }
 .address-info{
     display: flex;
@@ -53,7 +49,7 @@
 .topbar-right{
     display: flex;
     justify-content: center;
-    margin-right: 7rem;
+    /* margin-right: 7rem; */
     align-items: center;
 }
 .top-element{
@@ -78,7 +74,15 @@
 
 /* Responsive Design */
 @media screen and (max-width: 770px) {
-  .topbar {
+  .topbar{
+    display:none; 
+  }
+}
+
+
+    /*
+
+.topbar {
     margin: 0;
     padding: 0;
     display: flex;
@@ -89,7 +93,6 @@
   .topbar-left,
   .topbar-right {
     flex-direction: row;
-
     margin: 0;
     padding: 0;
   }
@@ -127,9 +130,7 @@
     flex-direction: row;
     display: flex;
     align-items: center;
-    justify-content: center; /* Center-align social links */
+    justify-content: center; 
     text-align: center;
   }
-}
-
-    
+    */

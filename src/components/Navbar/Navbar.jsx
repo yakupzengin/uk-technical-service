@@ -42,9 +42,9 @@ const Navbar = () => {
 
           <div className="hamburger-menu">
             <div className="menu-icon" >
-              <div className="time-icon">
+              {/* <div className="time-icon">
                 <IoIosTimer />
-              </div>
+              </div> */}
               <div className="hamburger-icon" onClick={toggleMobileMenu}>
                 <TiThMenu />
               </div>
